@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int i;
-    int n = 0;  // Initialize n to avoid undefined behavior
+    int n = 0;  
     cin >> i;
     if (i % 2 == 0 && i < 10) {
         n = 1;
@@ -19,7 +19,7 @@ int main()
     {
         case 1:
             cout << i * i << endl;
-            break;  // Prevent fall-through
+            break;  
             
         case 2:              
             cout << i / 2 << endl;
